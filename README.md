@@ -1,6 +1,6 @@
-#File search util
+# File search util
 
-##Calling util
+## Calling util
 
 ```
 sbt> runMain co.beetroot.Main <folder-to-analyze>
@@ -21,7 +21,7 @@ If the match is found file names with a score are output (sorted descending).
 
 To exit please use `:quit` command
 
-##Score counting
+## Score counting
 
 Score is calculated according to the following heuristics:
 
@@ -29,9 +29,9 @@ Score is calculated according to the following heuristics:
 - scores for all words are summed for each file; so file can get score N maximum, where N is a number of words
 - previous scores are normalized and cast to percents; so the file with the highest word count gets 100%
 
-##TODO
+## TODO
 Add more error handling
 
-##Testing
+## Testing
 
 Just run `test` or run subset of specs if needed.
