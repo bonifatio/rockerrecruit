@@ -1,4 +1,6 @@
-# File search util
+# File search util (Rocker)
+
+Original description could be found in `scala_developer_coding_exercise.pdf`
 
 ## Calling util
 
